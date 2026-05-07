@@ -12,6 +12,10 @@
 		2348230A2FA9FC6B0021FDA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234823092FA9FC6B0021FDA4 /* Assets.xcassets */; };
 		2348230D2FA9FC6B0021FDA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2348230C2FA9FC6B0021FDA4 /* Preview Assets.xcassets */; };
 		234823172FA9FC6B0021FDA4 /* LoginDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234823162FA9FC6B0021FDA4 /* LoginDemoAppTests.swift */; };
+		DD000001DD000001DD000001 /* LoginValidatorImplTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD000002DD000002DD000002 /* LoginValidatorImplTests.swift */; };
+		EE000001EE000001EE000001 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE000002EE000002EE000002 /* LoginViewModelTests.swift */; };
+		FF000003FF000003FF000003 /* MockLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000002FF000002FF000002 /* MockLoginService.swift */; };
+		FF000005FF000005FF000005 /* MockLoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000004FF000004FF000004 /* MockLoginValidator.swift */; };
 		234823212FA9FC6B0021FDA4 /* LoginDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234823202FA9FC6B0021FDA4 /* LoginDemoAppUITests.swift */; };
 		234823232FA9FC6B0021FDA4 /* LoginDemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234823222FA9FC6B0021FDA4 /* LoginDemoAppUITestsLaunchTests.swift */; };
 		2379025E2FAB50A000C68533 /* LoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379025D2FAB50A000C68533 /* LoginValidator.swift */; };
@@ -54,6 +58,10 @@
 		2348230C2FA9FC6B0021FDA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		234823122FA9FC6B0021FDA4 /* LoginDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		234823162FA9FC6B0021FDA4 /* LoginDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoAppTests.swift; sourceTree = "<group>"; };
+		DD000002DD000002DD000002 /* LoginValidatorImplTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidatorImplTests.swift; sourceTree = "<group>"; };
+		EE000002EE000002EE000002 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		FF000002FF000002FF000002 /* MockLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginService.swift; sourceTree = "<group>"; };
+		FF000004FF000004FF000004 /* MockLoginValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginValidator.swift; sourceTree = "<group>"; };
 		2348231C2FA9FC6B0021FDA4 /* LoginDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		234823202FA9FC6B0021FDA4 /* LoginDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoAppUITests.swift; sourceTree = "<group>"; };
 		234823222FA9FC6B0021FDA4 /* LoginDemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -141,9 +149,21 @@
 		234823152FA9FC6B0021FDA4 /* LoginDemoAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				FF000001FF000001FF000001 /* Mocks */,
 				234823162FA9FC6B0021FDA4 /* LoginDemoAppTests.swift */,
+				DD000002DD000002DD000002 /* LoginValidatorImplTests.swift */,
+				EE000002EE000002EE000002 /* LoginViewModelTests.swift */,
 			);
 			path = LoginDemoAppTests;
+			sourceTree = "<group>";
+		};
+		FF000001FF000001FF000001 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				FF000002FF000002FF000002 /* MockLoginService.swift */,
+				FF000004FF000004FF000004 /* MockLoginValidator.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		2348231F2FA9FC6B0021FDA4 /* LoginDemoAppUITests */ = {
@@ -455,6 +475,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				234823172FA9FC6B0021FDA4 /* LoginDemoAppTests.swift in Sources */,
+				DD000001DD000001DD000001 /* LoginValidatorImplTests.swift in Sources */,
+				EE000001EE000001EE000001 /* LoginViewModelTests.swift in Sources */,
+				FF000003FF000003FF000003 /* MockLoginService.swift in Sources */,
+				FF000005FF000005FF000005 /* MockLoginValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

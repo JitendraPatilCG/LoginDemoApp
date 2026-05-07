@@ -23,7 +23,7 @@ class LoginViewModel: ObservableObject {
            errorMessage = nil
            
            // ✅ Validation first
-           switch validator.validate(username: username, password: password) {
+           switch validator.validate(username: "", password: password) {
            case .failure(let message):
                errorMessage = message
                return
