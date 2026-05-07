@@ -39,7 +39,7 @@ struct LoginView: View {
             .disabled(viewModel.isLoading)
             
             if viewModel.isLoggedIn {
-                Text("✅ Logged In Successfully")
+                Text("✅ Logged In Successfully. Please enjoy")
                     .foregroundColor(.green)
             }
             
