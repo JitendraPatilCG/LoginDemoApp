@@ -14,11 +14,11 @@ struct LoginView: View {
                 .font(.largeTitle)
                 .bold()
             
-            TextField("Username", text: $viewModel.username)
+            TextField("Enter Username", text: $viewModel.username)
                 .textFieldStyle(.roundedBorder)
                 .autocapitalization(.none)
             
-            SecureField("Password", text: $viewModel.password)
+            SecureField("Enter Password", text: $viewModel.password)
                 .textFieldStyle(.roundedBorder)
             
             if let error = viewModel.errorMessage {
