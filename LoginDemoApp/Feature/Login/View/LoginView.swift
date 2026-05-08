@@ -31,7 +31,7 @@ struct LoginView: View {
                 if viewModel.isLoading {
                     ProgressView()
                 } else {
-                    Text("Login")
+                    Text("Sign In")
                         .frame(maxWidth: .infinity)
                 }
             }
