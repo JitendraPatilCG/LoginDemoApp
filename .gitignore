@@ -1,2 +1,4 @@
 .env
+TestResults
+TestResults.xcresult
 test_output.log
