@@ -13,13 +13,14 @@ struct LoginView: View {
             Text("Login")
                 .font(.largeTitle)
                 .bold()
-            
-            TextField("Username", text: $viewModel.username)
-                .textFieldStyle(.roundedBorder)
-                .autocapitalization(.none)
-            
-            SecureField("Password", text: $viewModel.password)
-                .textFieldStyle(.roundedBorder)
+            VStack {
+                TextField("Username", text: $viewModel.username)
+                    .textFieldStyle(.roundedBorder)
+                    .autocapitalization(.none)
+                
+                SecureField("Password", text: $viewModel.password)
+                    .textFieldStyle(.roundedBorder)
+            }
             
             if let error = viewModel.errorMessage {
                 Text(error)
