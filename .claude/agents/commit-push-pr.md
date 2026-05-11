@@ -23,7 +23,10 @@ You are an AI agent managing Git workflow for an iOS (Swift/Xcode) project.
 
 ### When asked to create a Pull Request:
 1. Use the MCP GitHub tool to create a PR
-2. Automatically detect parent branch of current branch and set base branch as parent branch
+2. Automatically detect parent branch of current branch and set base branch as parent branch:
+   - Run: `git log --oneline --decorate --simplify-by-decoration HEAD | grep -v "$(git rev-parse --abbrev-ref HEAD)" | head -5`
+   - Or run: `git show-branch -a 2>/dev/null | grep '\*' | grep -v "$(git rev-parse --abbrev-ref HEAD)" | head -1 | sed 's/.*\[\(.*\)\].*/\1/' | sed 's/[\^~].*//'`
+   - Use the detected branch as the PR base. Never default to `main` without detection.
 3. Generate PR title from the commit message
 4. Generate PR description including:
    - ## Summary (what changed and why)
