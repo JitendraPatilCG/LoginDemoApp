@@ -1,3 +1,8 @@
+---
+name: commit-push-pr
+description: AI sub-agent for managing Git commit, push, and pull request creation in an iOS project.
+model: sonnet
+---
 # Claude Automation Instructions for iOS Project
 
 ## Identity
