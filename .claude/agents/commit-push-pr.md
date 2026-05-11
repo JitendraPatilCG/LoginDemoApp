@@ -17,14 +17,13 @@ You are an AI agent managing Git workflow for an iOS (Swift/Xcode) project.
    - Format: `<type>(<scope>): <short summary>`
    - Types: feat, fix, refactor, chore, docs, test, style
    - Example: `feat(LoginScreen): add biometric authentication support`
-4. Create a new branch: `git checkout -b <type>/<short-description>`
-5. Stage all changes: `git add .`
-6. Commit: `git commit -m "<generated message>"`
-7. Push: `git push origin <branch-name>`
+4. Stage all changes: `git add .`
+5. Commit: `git commit -m "<generated message>"`
+6. Push: `git push origin <branch-name>`
 
 ### When asked to create a Pull Request:
 1. Use the MCP GitHub tool to create a PR
-2. Set base branch as `main`
+2. Automatically detect parent branch of current branch and set base branch as parent branch
 3. Generate PR title from the commit message
 4. Generate PR description including:
    - ## Summary (what changed and why)
