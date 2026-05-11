@@ -40,6 +40,7 @@ struct LoginView: View {
             
             if viewModel.isLoggedIn {
                 Text("✅ Logged In Successfully")
+                    .font(.title)
                     .foregroundColor(.green)
             }
             
