@@ -7,30 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		234823062FA9FC6A0021FDA4 /* LoginDemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234823052FA9FC6A0021FDA4 /* LoginDemoAppApp.swift */; };
-		234823082FA9FC6A0021FDA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234823072FA9FC6A0021FDA4 /* ContentView.swift */; };
-		2348230A2FA9FC6B0021FDA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234823092FA9FC6B0021FDA4 /* Assets.xcassets */; };
-		2348230D2FA9FC6B0021FDA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2348230C2FA9FC6B0021FDA4 /* Preview Assets.xcassets */; };
 		234823172FA9FC6B0021FDA4 /* LoginDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234823162FA9FC6B0021FDA4 /* LoginDemoAppTests.swift */; };
+		234823212FA9FC6B0021FDA4 /* LoginDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234823202FA9FC6B0021FDA4 /* LoginDemoAppUITests.swift */; };
+		234823232FA9FC6B0021FDA4 /* LoginDemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234823222FA9FC6B0021FDA4 /* LoginDemoAppUITestsLaunchTests.swift */; };
+		23C701192FB3339A00B2899C /* LoginDemoApp in Resources */ = {isa = PBXBuildFile; fileRef = 23C701182FB3339A00B2899C /* LoginDemoApp */; };
 		DD000001DD000001DD000001 /* LoginValidatorImplTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD000002DD000002DD000002 /* LoginValidatorImplTests.swift */; };
 		EE000001EE000001EE000001 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE000002EE000002EE000002 /* LoginViewModelTests.swift */; };
 		FF000003FF000003FF000003 /* MockLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000002FF000002FF000002 /* MockLoginService.swift */; };
 		FF000005FF000005FF000005 /* MockLoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000004FF000004FF000004 /* MockLoginValidator.swift */; };
-		234823212FA9FC6B0021FDA4 /* LoginDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234823202FA9FC6B0021FDA4 /* LoginDemoAppUITests.swift */; };
-		234823232FA9FC6B0021FDA4 /* LoginDemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234823222FA9FC6B0021FDA4 /* LoginDemoAppUITestsLaunchTests.swift */; };
-		2379025E2FAB50A000C68533 /* LoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379025D2FAB50A000C68533 /* LoginValidator.swift */; };
-		AA000001AA000001AA000001 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002AA000002AA000002 /* LoginModel.swift */; };
-		AA000003AA000003AA000003 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000004AA000004AA000004 /* LoginViewModel.swift */; };
-		AA000005AA000005AA000005 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000006AA000006AA000006 /* LoginView.swift */; };
-		AA000007AA000007AA000007 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000008AA000008AA000008 /* LoginService.swift */; };
-		BB000001BB000001BB000001 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000002BB000002BB000002 /* ProfileModel.swift */; };
-		BB000003BB000003BB000003 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000004BB000004BB000004 /* ProfileViewModel.swift */; };
-		BB000005BB000005BB000005 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000006BB000006BB000006 /* ProfileView.swift */; };
-		BB000007BB000007BB000007 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000008BB000008BB000008 /* ProfileService.swift */; };
-		CC000001CC000001CC000001 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000002CC000002CC000002 /* DashboardModel.swift */; };
-		CC000003CC000003CC000003 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000004CC000004CC000004 /* DashboardViewModel.swift */; };
-		CC000005CC000005CC000005 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000006CC000006CC000006 /* DashboardView.swift */; };
-		CC000007CC000007CC000007 /* DashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000008CC000008CC000008 /* DashboardService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,32 +36,16 @@
 
 /* Begin PBXFileReference section */
 		234823022FA9FC6A0021FDA4 /* LoginDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		234823052FA9FC6A0021FDA4 /* LoginDemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoAppApp.swift; sourceTree = "<group>"; };
-		234823072FA9FC6A0021FDA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		234823092FA9FC6B0021FDA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2348230C2FA9FC6B0021FDA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		234823122FA9FC6B0021FDA4 /* LoginDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		234823162FA9FC6B0021FDA4 /* LoginDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoAppTests.swift; sourceTree = "<group>"; };
+		2348231C2FA9FC6B0021FDA4 /* LoginDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		234823202FA9FC6B0021FDA4 /* LoginDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoAppUITests.swift; sourceTree = "<group>"; };
+		234823222FA9FC6B0021FDA4 /* LoginDemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23C701182FB3339A00B2899C /* LoginDemoApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LoginDemoApp; sourceTree = "<group>"; };
 		DD000002DD000002DD000002 /* LoginValidatorImplTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidatorImplTests.swift; sourceTree = "<group>"; };
 		EE000002EE000002EE000002 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
 		FF000002FF000002FF000002 /* MockLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginService.swift; sourceTree = "<group>"; };
 		FF000004FF000004FF000004 /* MockLoginValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginValidator.swift; sourceTree = "<group>"; };
-		2348231C2FA9FC6B0021FDA4 /* LoginDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		234823202FA9FC6B0021FDA4 /* LoginDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoAppUITests.swift; sourceTree = "<group>"; };
-		234823222FA9FC6B0021FDA4 /* LoginDemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2379025D2FAB50A000C68533 /* LoginValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidator.swift; sourceTree = "<group>"; };
-		AA000002AA000002AA000002 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
-		AA000004AA000004AA000004 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		AA000006AA000006AA000006 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		AA000008AA000008AA000008 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
-		BB000002BB000002BB000002 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
-		BB000004BB000004BB000004 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
-		BB000006BB000006BB000006 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		BB000008BB000008BB000008 /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
-		CC000002CC000002CC000002 /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
-		CC000004CC000004CC000004 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
-		CC000006CC000006CC000006 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
-		CC000008CC000008CC000008 /* DashboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +76,7 @@
 		234822F92FA9FC6A0021FDA4 = {
 			isa = PBXGroup;
 			children = (
-				234823042FA9FC6A0021FDA4 /* LoginDemoApp */,
+				23C701182FB3339A00B2899C /* LoginDemoApp */,
 				234823152FA9FC6B0021FDA4 /* LoginDemoAppTests */,
 				2348231F2FA9FC6B0021FDA4 /* LoginDemoAppUITests */,
 				234823032FA9FC6A0021FDA4 /* Products */,
@@ -125,27 +93,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		234823042FA9FC6A0021FDA4 /* LoginDemoApp */ = {
-			isa = PBXGroup;
-			children = (
-				2379025C2FAB508F00C68533 /* Validators */,
-				234823052FA9FC6A0021FDA4 /* LoginDemoAppApp.swift */,
-				234823072FA9FC6A0021FDA4 /* ContentView.swift */,
-				234823092FA9FC6B0021FDA4 /* Assets.xcassets */,
-				2348230B2FA9FC6B0021FDA4 /* Preview Content */,
-				AA000010AA000010AA000010 /* Feature */,
-			);
-			path = LoginDemoApp;
-			sourceTree = "<group>";
-		};
-		2348230B2FA9FC6B0021FDA4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				2348230C2FA9FC6B0021FDA4 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		234823152FA9FC6B0021FDA4 /* LoginDemoAppTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,15 +104,6 @@
 			path = LoginDemoAppTests;
 			sourceTree = "<group>";
 		};
-		FF000001FF000001FF000001 /* Mocks */ = {
-			isa = PBXGroup;
-			children = (
-				FF000002FF000002FF000002 /* MockLoginService.swift */,
-				FF000004FF000004FF000004 /* MockLoginValidator.swift */,
-			);
-			path = Mocks;
-			sourceTree = "<group>";
-		};
 		2348231F2FA9FC6B0021FDA4 /* LoginDemoAppUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,151 +113,13 @@
 			path = LoginDemoAppUITests;
 			sourceTree = "<group>";
 		};
-		2379025C2FAB508F00C68533 /* Validators */ = {
+		FF000001FF000001FF000001 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
-				2379025D2FAB50A000C68533 /* LoginValidator.swift */,
+				FF000002FF000002FF000002 /* MockLoginService.swift */,
+				FF000004FF000004FF000004 /* MockLoginValidator.swift */,
 			);
-			path = Validators;
-			sourceTree = "<group>";
-		};
-		AA000010AA000010AA000010 /* Feature */ = {
-			isa = PBXGroup;
-			children = (
-				AA000011AA000011AA000011 /* Login */,
-				BB000011BB000011BB000011 /* Profile */,
-				CC000011CC000011CC000011 /* Dashboard */,
-			);
-			path = Feature;
-			sourceTree = "<group>";
-		};
-		AA000011AA000011AA000011 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				AA000012AA000012AA000012 /* Model */,
-				AA000013AA000013AA000013 /* ViewModel */,
-				AA000014AA000014AA000014 /* View */,
-				AA000015AA000015AA000015 /* Service */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		AA000012AA000012AA000012 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				AA000002AA000002AA000002 /* LoginModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		AA000013AA000013AA000013 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				AA000004AA000004AA000004 /* LoginViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		AA000014AA000014AA000014 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				AA000006AA000006AA000006 /* LoginView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		AA000015AA000015AA000015 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				AA000008AA000008AA000008 /* LoginService.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		BB000011BB000011BB000011 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				BB000012BB000012BB000012 /* Model */,
-				BB000013BB000013BB000013 /* ViewModel */,
-				BB000014BB000014BB000014 /* View */,
-				BB000015BB000015BB000015 /* Service */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
-		BB000012BB000012BB000012 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				BB000002BB000002BB000002 /* ProfileModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		BB000013BB000013BB000013 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				BB000004BB000004BB000004 /* ProfileViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		BB000014BB000014BB000014 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				BB000006BB000006BB000006 /* ProfileView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		BB000015BB000015BB000015 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				BB000008BB000008BB000008 /* ProfileService.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		CC000011CC000011CC000011 /* Dashboard */ = {
-			isa = PBXGroup;
-			children = (
-				CC000012CC000012CC000012 /* Model */,
-				CC000013CC000013CC000013 /* ViewModel */,
-				CC000014CC000014CC000014 /* View */,
-				CC000015CC000015CC000015 /* Service */,
-			);
-			path = Dashboard;
-			sourceTree = "<group>";
-		};
-		CC000012CC000012CC000012 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CC000002CC000002CC000002 /* DashboardModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CC000013CC000013CC000013 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				CC000004CC000004CC000004 /* DashboardViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		CC000014CC000014CC000014 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				CC000006CC000006CC000006 /* DashboardView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CC000015CC000015CC000015 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				CC000008CC000008CC000008 /* DashboardService.swift */,
-			);
-			path = Service;
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,8 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2348230D2FA9FC6B0021FDA4 /* Preview Assets.xcassets in Resources */,
-				2348230A2FA9FC6B0021FDA4 /* Assets.xcassets in Resources */,
+				23C701192FB3339A00B2899C /* LoginDemoApp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,21 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				234823082FA9FC6A0021FDA4 /* ContentView.swift in Sources */,
-				234823062FA9FC6A0021FDA4 /* LoginDemoAppApp.swift in Sources */,
-				AA000001AA000001AA000001 /* LoginModel.swift in Sources */,
-				AA000003AA000003AA000003 /* LoginViewModel.swift in Sources */,
-				AA000005AA000005AA000005 /* LoginView.swift in Sources */,
-				AA000007AA000007AA000007 /* LoginService.swift in Sources */,
-				BB000001BB000001BB000001 /* ProfileModel.swift in Sources */,
-				BB000003BB000003BB000003 /* ProfileViewModel.swift in Sources */,
-				BB000005BB000005BB000005 /* ProfileView.swift in Sources */,
-				2379025E2FAB50A000C68533 /* LoginValidator.swift in Sources */,
-				BB000007BB000007BB000007 /* ProfileService.swift in Sources */,
-				CC000001CC000001CC000001 /* DashboardModel.swift in Sources */,
-				CC000003CC000003CC000003 /* DashboardViewModel.swift in Sources */,
-				CC000005CC000005CC000005 /* DashboardView.swift in Sources */,
-				CC000007CC000007CC000007 /* DashboardService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,7 +471,6 @@
 		2348232A2FA9FC6B0021FDA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -707,7 +490,6 @@
 		2348232B2FA9FC6B0021FDA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -727,7 +509,6 @@
 		2348232D2FA9FC6B0021FDA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9GT32B45TY;
@@ -745,7 +526,6 @@
 		2348232E2FA9FC6B0021FDA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9GT32B45TY;
